@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: "Reem Kufi", sans-serif !important;
 }
+html {
+  scroll-behavior: smooth;
+}
 img {
   max-width: 100%;
   height: auto;
@@ -425,4 +428,11 @@ nav {
   .about-background-image-container {
     display: none;
   }
+}
+
+/* hove card  */
+.hover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.103);
+  cursor: pointer;
 }

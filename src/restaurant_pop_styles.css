@@ -1,0 +1,51 @@
+.pop-container {
+  width: 100vw;
+  height: 100vh;
+  z-index: 5;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  background-color: rgba(0, 0, 0, 0.644);
+}
+.pop-content {
+  margin: 10vh auto;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 700px;
+  min-height: 40vh;
+  background-color: white;
+  border: solid 1px orange;
+  padding: 5px 50px;
+  position: relative;
+}
+.pop-content h1 {
+  color: orange;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+.pop-content ul {
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.close-pop {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+.loader-box {
+  margin: 80px auto;
+
+  display: flex;
+  justify-content: center;
+}
+.order-button {
+  padding: 5px 10px;
+  border: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(251, 169, 17);
+  cursor: pointer;
+}

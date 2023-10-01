@@ -16,12 +16,9 @@ const Home = () => {
           <h1 className="primary-heading">
             Your Favourite Food Delivered Hot & Fresh
           </h1>
-          <p className="primary-text">
-            Healthy switcher chefs do all the prep work, like peeding, chopping
-            & marinating, so you can cook a fresh food.
-          </p>
+          <p className="primary-text">Get the best pizza hot and fresh.</p>
           <button className="secondary-button">
-            Order Now <FiArrowRight />{" "}
+            Order Now <FiArrowRight />
           </button>
         </div>
         <div className="home-image-section">
